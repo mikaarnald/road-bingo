@@ -25,11 +25,6 @@ const App: React.FC = () => {
           element: <WordList />,
           loader: defaultConfigLoader,
         },
-        {
-          path: "qr_code",
-          element: <QRCode />,
-          loader: defaultConfigLoader,
-        },
       ],
     },
     {
@@ -45,11 +40,6 @@ const App: React.FC = () => {
         {
           path: "word_list",
           element: <WordList />,
-          loader: configLoader,
-        },
-        {
-          path: "qr_code",
-          element: <QRCode />,
           loader: configLoader,
         },
       ],

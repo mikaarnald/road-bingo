@@ -6,7 +6,7 @@ import type { Config } from "../data/config";
 
 export type KeyedConfig = { id: string } & Config;
 
-const defaultKeyedConfig: KeyedConfig = { id: "teamLindy", ...defaultConfig };
+const defaultKeyedConfig: KeyedConfig = { id: "road-bingo", ...defaultConfig };
 
 export const defaultConfigLoader = (): KeyedConfig => {
   return defaultKeyedConfig;

@@ -12,7 +12,6 @@ type LanguageData = { text: string; flagCode: string };
 
 const languages: { [key in SupportedLanguageCode]: LanguageData } = {
   en: { text: "English", flagCode: "GB" },
-  fr: { text: "Francais", flagCode: "FR" },
   sv: { text: "Svenska", flagCode: "SE" },
 };
 
