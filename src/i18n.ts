@@ -5,7 +5,7 @@ import en from "./locales/en.json";
 import fr from "./locales/fr.json";
 import sv from "./locales/sv.json";
 
-const SUPPORTED_LANGAUGE_CODES = ["en", "fr", "sv"] as const;
+const SUPPORTED_LANGAUGE_CODES = ["en", "sv"] as const;
 export const FALLBACK_LANGUAGE_CODE: SupportedLanguageCode = "en" as const;
 export type SupportedLanguageCode = (typeof SUPPORTED_LANGAUGE_CODES)[number];
 

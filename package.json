@@ -1,9 +1,9 @@
 {
-  "name": "bingo-frontend",
+  "name": "road-bingo",
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://teamlindybingo.com",
+  "homepage": "https://mikaarnald.github.io/road-bingo/",
   "dependencies": {
     "@vitejs/plugin-react-swc": "^3.6.0",
     "classnames": "^2.5.1",
@@ -56,7 +56,7 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "jsdom": "^24.0.0",
     "prettier": "3.2.5",
     "typescript": "^5.4.5",
